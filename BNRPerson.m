@@ -10,11 +10,11 @@
 
 @implementation BNRPerson
 
--(NSString *) eyeColor;{
+-(NSString *) eyeColor {
     return _eyeColor;
 }
--(void)seteyeColor:(NSString*)color;{
+-(void)setEyeColor:(NSString*)color;{
     _eyeColor = color;
-    NSLog(@"%@",color);
+    NSLog(@"%@ is this persons eye color ",color);
 }
 @end

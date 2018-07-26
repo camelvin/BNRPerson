@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Person.h"
 #import "BNRPerson.h"
+#import "Employee.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,10 +17,12 @@ int main(int argc, const char * argv[]) {
         Person *person =[[Person alloc]init];
         BNRPerson *fred =[[BNRPerson alloc]init];
         
+   fred.eyeColor = @"blue";
+        
         //Give the instance  variables interesting values
         [person setWeightInKilos: 145];
         [person setHeightInMeters:1.88];
-        [fred seteyeColor:@"blue"];
+       
         
         //call bodyMassIndex method
         float bmi = [person bodyMassIndex];

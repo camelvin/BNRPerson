@@ -10,6 +10,7 @@
 		F06C2BDD20FE4B8E00B6F2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C2BDC20FE4B8E00B6F2AE /* main.m */; };
 		F06C2BE520FE4BAE00B6F2AE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F06C2BE420FE4BAE00B6F2AE /* Person.m */; };
 		F096094B210170B400D3B05A /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F096094A210170B400D3B05A /* BNRPerson.m */; };
+		F09609C62103B2BB00D3B05A /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = F09609C52103B2BB00D3B05A /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		F06C2BE420FE4BAE00B6F2AE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F0960949210170B400D3B05A /* BNRPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
 		F096094A210170B400D3B05A /* BNRPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		F09609C42103B2BB00D3B05A /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		F09609C52103B2BB00D3B05A /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 		F06C2BD020FE4B8E00B6F2AE = {
 			isa = PBXGroup;
 			children = (
+				F09609C42103B2BB00D3B05A /* Employee.h */,
+				F09609C52103B2BB00D3B05A /* Employee.m */,
 				F06C2BE320FE4BAE00B6F2AE /* Person.h */,
 				F0960949210170B400D3B05A /* BNRPerson.h */,
 				F096094A210170B400D3B05A /* BNRPerson.m */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06C2BE520FE4BAE00B6F2AE /* Person.m in Sources */,
+				F09609C62103B2BB00D3B05A /* Employee.m in Sources */,
 				F096094B210170B400D3B05A /* BNRPerson.m in Sources */,
 				F06C2BDD20FE4B8E00B6F2AE /* main.m in Sources */,
 			);

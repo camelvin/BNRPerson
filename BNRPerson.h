@@ -12,7 +12,8 @@
     NSString * _eyeColor;
 }
 -(NSString *)eyeColor;
--(void)seteyeColor:(NSString*)color;
+-(void)setEyeColor:(NSString*)color;
+
 @end
 
 
